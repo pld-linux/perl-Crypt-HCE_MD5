@@ -32,7 +32,7 @@ radiusie (RFC 2138) oraz opisana w Applied Cryptography.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{__make} test
 
