@@ -34,7 +34,7 @@ radiusie (RFC 2138) oraz opisana w Applied Cryptography.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{__make} test
 
