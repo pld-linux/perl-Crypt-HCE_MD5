@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Crypt
-%define		pnam	HCE_MD5
+%define	pdir	Crypt
+%define	pnam	HCE_MD5
 Summary:	Crypt::HCE_MD5 Perl module - hash chaining encryption using MD5
 Summary(pl):	Modu³ Perla Crypt::HCE_MD5 - ³añcuchowe kodowanie z u¿yciem MD5
 Name:		perl-Crypt-HCE_MD5
