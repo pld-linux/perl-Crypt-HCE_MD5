@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	HCE_MD5
 Summary:	Crypt::HCE_MD5 Perl module - hash chaining encryption using MD5
-Summary(pl.UTF-8):   Moduł Perla Crypt::HCE_MD5 - łańcuchowe kodowanie z użyciem MD5
+Summary(pl.UTF-8):	Moduł Perla Crypt::HCE_MD5 - łańcuchowe kodowanie z użyciem MD5
 Name:		perl-Crypt-HCE_MD5
 Version:	0.70
 Release:	1
