@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	HCE_MD5
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::HCE_MD5 Perl module - hash chaining encryption using MD5
 Summary(pl.UTF-8):	Moduł Perla Crypt::HCE_MD5 - łańcuchowe kodowanie z użyciem MD5
 Name:		perl-Crypt-HCE_MD5
@@ -10,9 +10,10 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2fca1b79ee1a83854938f5c7711a19be
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Crypt-HCE_MD5/
 BuildRequires:	perl-Digest-MD5 >= 2
 BuildRequires:	perl-MIME-Base64 >= 2
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Digest-MD5 >= 2
 Requires:	perl-MIME-Base64 >= 2
@@ -45,7 +46,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
