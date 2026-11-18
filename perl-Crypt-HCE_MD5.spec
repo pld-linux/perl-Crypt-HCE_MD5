@@ -3,12 +3,12 @@
 Summary:	Crypt::HCE_MD5 Perl module - hash chaining encryption using MD5
 Summary(pl.UTF-8):	Moduł Perla Crypt::HCE_MD5 - łańcuchowe kodowanie z użyciem MD5
 Name:		perl-Crypt-HCE_MD5
-Version:	0.70
-Release:	3
+Version:	0.75
+Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2fca1b79ee1a83854938f5c7711a19be
+Source0:	https://www.cpan.org/authors/id/E/EE/EESTABROO/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	87b7035fbdc945a12bdf86aa930cc207
 URL:		http://search.cpan.org/dist/Crypt-HCE_MD5/
 BuildRequires:	perl-Digest-MD5 >= 2
 BuildRequires:	perl-MIME-Base64 >= 2
